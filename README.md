@@ -1,4 +1,5 @@
 # Codes-of-EGG
+Official implementation of SIGIR 2024 paper "Event Grounded Criminal Court View Generation with Cooperative (Large) Language Models".
 
 ## Run LLMs-based event extractor
 ```
