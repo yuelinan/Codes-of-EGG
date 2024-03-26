@@ -11,4 +11,4 @@ bash extract.sh
 sh  event.sh
 ```
 
-In the questions.txt, we have show several questions we labeled for the case types. We will release all the labeled questions soon.
+In the questions.txt, we have show several questions we labeled for the case types.
