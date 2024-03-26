@@ -222,7 +222,6 @@ class Event_Free_Generation(BartPretrainedModel):
         if not return_dict:
             output = (lm_logits,) + outputs[1:]
             return ((masked_lm_loss,) + output) if masked_lm_loss is not None else output
-        ###  这里可以调一调，看看需不需要去掉注释
         return Seq2SeqLMOutput(
             loss=masked_lm_loss,
             logits=lm_logits,
@@ -397,7 +396,6 @@ class Event_Generation_cat(BartPretrainedModel):
         if not return_dict:
             output = (lm_logits,) + outputs[1:]
             return ((masked_lm_loss,) + output) if masked_lm_loss is not None else output
-        ###  这里可以调一调，看看需不需要去掉注释
         return Seq2SeqLMOutput(
             loss=masked_lm_loss,
             logits=lm_logits,
